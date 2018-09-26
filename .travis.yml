@@ -20,7 +20,7 @@ deploy:
   bucket: workshop-level400-s3-enidlai
   key: workshop-${TRAVIS_BUILD_NUMBER}.zip
   application: workshop-aws-cicd-enidlai
-  deployment_group: master
+  deployment_group: workshop-aws-cicd-enidlai
   region: us-east-1
   on:
     branch: master
